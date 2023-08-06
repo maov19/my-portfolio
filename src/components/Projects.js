@@ -10,6 +10,14 @@ const Projects = () => {
       items: ['Item 1', 'Item 2', 'Item 3'],
       seeMoreImage: 'project1_large.jpg',
     },
+    {
+      id: 2,
+      image: 'project2.jpg',
+      title: 'Project 2',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      items: ['Item 1', 'Item 2', 'Item 3'],
+      seeMoreImage: 'project2_large.jpg',
+    },
     // Add more project objects here
   ];
 
@@ -18,19 +26,21 @@ const Projects = () => {
   };
 
   return (
-    <div>
+    <div className='d-flex flex-column align-items-center gap-3' style={{ height: '50vh', width: '100vw'}}>
       {projects.map((project) => (
-        <div key={project.id}>
+        <div className='bg-primary rounded w-75 d-flex flex-column justify-content-center align-items-center py-3' key={project.id}>
           <img src={project.image} alt={project.title} />
           <h2>{project.title}</h2>
-          <p>{project.description}</p>
-          <ul>
+          <p className='text-center'>{project.description}</p>
+          <ul className='w-100 d-flex flex-row justify-content-center gap-4'>
             {project.items.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
           </ul>
-          <button onClick={() => handleSeeMore(project.seeMoreImage)}>See more</button>
-          <button>Live site</button>
+          <div className='d-flex flex-row gap-3'>
+            <button onClick={() => handleSeeMore(project.seeMoreImage)}>See more</button>
+            <button>Live site</button>
+          </div>
         </div>
       ))}
     </div>

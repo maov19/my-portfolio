@@ -7,14 +7,14 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <div className='bg-primary d-flex flex-column justify-content-center align-items-center' style={{ height: '50vh', width: '100vw'}}>
       <h2>Contact</h2>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
+      <form onSubmit={handleSubmit} className='d-flex flex-column justify-content-center align-items-center gap-2'>
+        <label htmlFor="name"></label>
+        <input className='w-100' type="text" id="name" placeholder='Name' required />
 
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" required></textarea>
+        <label htmlFor="message"></label>
+        <textarea className='w-100' id="message" placeholder='Message' required></textarea>
 
         <button type="submit">Send message</button>
       </form>
