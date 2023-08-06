@@ -7,7 +7,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='bg-primary d-flex flex-column justify-content-center align-items-center' style={{ height: '50vh', width: '100vw'}}>
+    <div className='bg-primary d-flex flex-column justify-content-center align-items-center' style={{ height: '100vh', width: '100vw'}}>
       <h2>Contact</h2>
       <form onSubmit={handleSubmit} className='d-flex flex-column justify-content-center align-items-center gap-2'>
         <label htmlFor="name"></label>

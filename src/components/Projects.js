@@ -26,7 +26,7 @@ const Projects = () => {
   };
 
   return (
-    <div className='d-flex flex-column align-items-center gap-3' style={{ height: '50vh', width: '100vw'}}>
+    <div className='d-flex flex-column align-items-center justify-content-center gap-3' style={{ height: '100vh', width: '100vw'}}>
       {projects.map((project) => (
         <div className='bg-primary rounded w-75 d-flex flex-column justify-content-center align-items-center py-3' key={project.id}>
           <img src={project.image} alt={project.title} />
