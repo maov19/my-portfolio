@@ -1,0 +1,27 @@
+.GitHub-btn {
+    background-color: rgba(26, 30, 248, 0.705);
+    color: white;
+    box-shadow: 0.2rem 0.2rem 0 rgba(26, 30, 248, 0.705);    
+    border: grey;
+    border-radius: 0.5rem;
+  }
+  
+  .GitHub-btn:active {
+    transform: translateY(2px);
+  }
+  
+  /* Custom button styles for Live Site */
+  .LiveSite-btn {
+    background-color: rgba(26, 30, 248, 0.705);
+    color: white;
+    box-shadow: 0.2rem 0.2rem 0 rgba(26, 30, 248, 0.705);
+    transition: transform 0.1s;
+    
+    border: grey;
+    border-radius: 0.5rem;
+  }
+  
+  .LiveSite-btn:active {
+    transform: translateY(2px);
+  }
+  
