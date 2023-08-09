@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/maov19/my-portfolio.git/static/css/main.4eb659cb.css",
+    "main.js": "/maov19/my-portfolio.git/static/js/main.633c41c1.js",
+    "static/js/787.128fc6e9.chunk.js": "/maov19/my-portfolio.git/static/js/787.128fc6e9.chunk.js",
+    "static/media/python-logo.png": "/maov19/my-portfolio.git/static/media/python-logo.91072be85b01ef0961a8.png",
+    "static/media/HTML5_logo.png": "/maov19/my-portfolio.git/static/media/HTML5_logo.f3164981f6eaf63d0e8d.png",
+    "static/media/fa-solid-900.ttf": "/maov19/my-portfolio.git/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/cyclecruiser-1.png": "/maov19/my-portfolio.git/static/media/cyclecruiser-1.dda64544b69a4640e13c.png",
+    "static/media/JavaScript_Logo.png": "/maov19/my-portfolio.git/static/media/JavaScript_Logo.92169892ea013a5154bd.png",
+    "static/media/Bootstrap_Logo.png": "/maov19/my-portfolio.git/static/media/Bootstrap_Logo.af196e40f986737c9519.png",
+    "static/media/fa-brands-400.ttf": "/maov19/my-portfolio.git/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/maov19/my-portfolio.git/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/maov19/my-portfolio.git/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/maov19/my-portfolio.git/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/react-logo.png": "/maov19/my-portfolio.git/static/media/react-logo.3c1cca491037897328d6.png",
+    "static/media/space-travelers-1.jpg": "/maov19/my-portfolio.git/static/media/space-travelers-1.87ad37e8d97b5995e0d8.jpg",
+    "static/media/fa-regular-400.woff2": "/maov19/my-portfolio.git/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/rails-logo.png": "/maov19/my-portfolio.git/static/media/rails-logo.d217ea21211538a2f0de.png",
+    "static/media/fa-v4compatibility.ttf": "/maov19/my-portfolio.git/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/maov19/my-portfolio.git/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/maov19/my-portfolio.git/index.html",
+    "main.4eb659cb.css.map": "/maov19/my-portfolio.git/static/css/main.4eb659cb.css.map",
+    "main.633c41c1.js.map": "/maov19/my-portfolio.git/static/js/main.633c41c1.js.map",
+    "787.128fc6e9.chunk.js.map": "/maov19/my-portfolio.git/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4eb659cb.css",
+    "static/js/main.633c41c1.js"
+  ]
+}
