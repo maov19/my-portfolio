@@ -1,27 +1,30 @@
 .GitHub-btn {
     background-color: rgba(26, 30, 248, 0.705);
     color: white;
-    box-shadow: 0.2rem 0.2rem 0 rgba(26, 30, 248, 0.705);    
+    box-shadow: 0 0.4rem 0 rgba(26, 30, 248, 0.822);    
     border: grey;
     border-radius: 0.5rem;
+    padding: 0.4rem;
   }
   
   .GitHub-btn:active {
     transform: translateY(2px);
+    box-shadow: none
   }
   
   /* Custom button styles for Live Site */
   .LiveSite-btn {
     background-color: rgba(26, 30, 248, 0.705);
     color: white;
-    box-shadow: 0.2rem 0.2rem 0 rgba(26, 30, 248, 0.705);
+    box-shadow: 0 0.4rem 0 rgba(26, 30, 248, 0.822);    
     transition: transform 0.1s;
-    
-    border: grey;
+    padding: 0.4rem;
+    border: none;
     border-radius: 0.5rem;
   }
   
   .LiveSite-btn:active {
     transform: translateY(2px);
+    box-shadow: none
   }
   
