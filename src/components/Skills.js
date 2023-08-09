@@ -18,7 +18,7 @@ const Skills = () => {
   };
 
   return (
-    <div className='d-flex flex-column justify-content-center align-items-center gap-4 my-5' style={{height: '75vh'}}>
+    <div className='d-flex flex-column justify-content-center align-items-center gap-4 p-5' style={{height: '90vh', backgroundColor: '#dff706bb'}}>
       <div className={`flip-card ${isFlipped[0] ? 'flipped' : ''}`} onClick={() => handleCardClick(0)}>
         <div className="flip-card-inner">
           <div className="flip-card-front">

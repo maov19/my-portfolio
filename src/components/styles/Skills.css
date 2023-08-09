@@ -19,6 +19,8 @@
 .flip-card-front,
 .flip-card-back 
 {
+  background-color: white;
+  border-radius: 2rem;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -68,11 +70,13 @@ margin: 0;
 }
 
 .green {
-  background-color: lightgreen;
+  background-color: #dff706bb;
+  color: black;
 }
 
 .blue {
-  background-color: lightblue;
+  background-color: rgba(0, 0, 0, 0.692);
+  color: whitesmoke;
 }
 
 .skills-list {
