@@ -1,5 +1,5 @@
 .flip-card {
-    width: 60vw;
+    width: 80vw;
     height: 40vh;
     perspective: 1000px;
     cursor: pointer;
@@ -36,8 +36,8 @@
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
+  justify-content: center; 
+  align-items: center; 
 }
 
 .flip-card-back-grid {
@@ -49,41 +49,52 @@ gap: 2rem;
 margin: 0;
 }
 
-.flip-card-back-grid ul {
+.hard-list {
+  /* border: solid green; */
+  gap: 1rem;
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-
-.hard-logos {
-  width: 100%;
-  height: 100%;
 }
 
 .soft-skills {
   border-radius: 0.5rem;
   text-align: center;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
 }
 
 .green {
   background-color: #dff706bb;
   color: black;
+  font-size: 0.7rem;
 }
 
 .blue {
   background-color: rgba(0, 0, 0, 0.692);
   color: whitesmoke;
+  font-size: 0.7rem;
 }
 
 .skills-list {
-  margin: 0;
-  padding: 6rem;
+  height: min-content;
+  width: min-content;
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.skills-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
 }

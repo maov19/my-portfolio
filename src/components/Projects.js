@@ -28,10 +28,10 @@ const Projects = () => {
   ];
 
   return (
-    <div className='d-flex flex-column align-items-center justify-content-center gap-5 p-3' style={{ width: '100vw', backgroundColor: '#dff70675'}}>
-      <h1 style={{paddingTop: '2rem'}}>Projects</h1>
+    <div className='d-flex flex-column align-items-center justify-content-center gap-3 p-3' style={{ width: '100vw', backgroundColor: '#dff70675'}}>
+      <h1 style={{paddingTop: '1.5rem'}}>Projects</h1>
       {projects.map((project) => (
-        <div className='rounded w-75 d-flex flex-column justify-content-center align-items-center p-4' style={{backgroundColor: 'white'}} key={project.id}>
+        <div className='rounded w-75 h-100 d-flex flex-column justify-content-center align-items-center p-4' style={{backgroundColor: 'white'}} key={project.id}>
           <img src={project.image} alt={project.title} className='img-fluid mb-3'/>
           <h2 className='text-center'>{project.title}</h2>
           <p className='text-center'>{project.description}</p>
