@@ -1,24 +1,119 @@
-.GitHub-btn {
-    background-color: rgba(26, 30, 248, 0.705);
-    color: white;
-    box-shadow: 0 0.4rem 0 rgba(26, 30, 248, 0.822);    
+  @import url(https://fonts.googleapis.com/css?family=Exo:100);
+  /* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+  /* Animations */
+  @-webkit-keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @-moz-keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @-o-keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @-webkit-keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  @-moz-keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  @-o-keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  @keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  /* Main styles */
+
+  body {
+    font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  }
+  
+
+  .projects-background {
+    /* margin-top: 13.5rem; */
+    color: #999;
+    font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+    text-align: center;
+    /* img size is 50x50 */
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+    -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Safari 4+ */
+    -moz-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Fx 5+ */
+    -o-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Opera 12+ */
+    animation: bg-scrolling-reverse 0.92s infinite;
+    /* IE 10+ */
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  
+  .triple-rounded {
+    border-radius: 2rem;
+  }
+
+  .GitHub-btn {
+    font-size: 1rem;
+    background-color: #EAE0D5;
+    color: black;
+    box-shadow: 0 0.4rem 0 #eae0d59d;    
     border: grey;
     border-radius: 0.5rem;
-    padding: 0.4rem;
+    padding: 0.3rem;
   }
   
   .GitHub-btn:active {
     transform: translateY(2px);
     box-shadow: none
   }
+
+  .see-projects-btn {
+    background-color: #EAE0D5;
+    box-shadow: 0 0.4rem 0 rgba(156, 146, 112, 0.74);    
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+  }
+  
+  .see-projects-btn:active {
+    transform: translateY(2px);
+    box-shadow: none
+  }
   
   /* Custom button styles for Live Site */
   .LiveSite-btn {
-    background-color: rgba(26, 30, 248, 0.705);
-    color: white;
-    box-shadow: 0 0.4rem 0 rgba(26, 30, 248, 0.822);    
+    font-size: 1rem;
+    background-color: #EAE0D5;
+    color: black;
+    box-shadow: 0 0.4rem 0 #eae0d59d;       
     transition: transform 0.1s;
-    padding: 0.4rem;
+    padding: 0.3rem;
     border: none;
     border-radius: 0.5rem;
   }
@@ -27,4 +122,3 @@
     transform: translateY(2px);
     box-shadow: none
   }
-  
