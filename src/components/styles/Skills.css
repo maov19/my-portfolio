@@ -7,17 +7,17 @@
 .main-content {
   background-color: #EAE0D5;
   padding-top: 1rem;
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  gap: 0;
 }
 
 .palette__wrapper {
   flex: 1;
-  padding: 2rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -29,6 +29,9 @@
   position: relative;
   display: inline-block;
   perspective: 800px;
+  box-shadow: 0 0.6rem 0 rgba(156, 146, 112, 0.74); 
+  border-radius: 1rem;   
+
 }
 .palette__cover {
   border-radius: 6px;

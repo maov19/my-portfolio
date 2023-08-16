@@ -19,7 +19,7 @@ const Skills = () => {
 
   return (
     <section>
-      <div class="main-content w-100 h-100">
+      <div class="main-content">
         <div class="palette__wrapper">
           <div class="palette palette--one">
             <div class="palette__cover" style={{backgroundColor: '#5E503F'}}>
