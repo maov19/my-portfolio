@@ -21,6 +21,14 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
 }
 
 .palette {
@@ -30,9 +38,14 @@
   display: inline-block;
   perspective: 800px;
   box-shadow: 0 0.6rem 0 rgba(156, 146, 112, 0.74); 
-  border-radius: 1rem;   
-
+  border-radius: 1rem;  
+  
+  @media (min-width: 768px) {
+    width: 50%;
+    height: 50%;
+  }
 }
+
 .palette__cover {
   border-radius: 6px;
   width: inherit;
@@ -62,6 +75,7 @@
   padding: 10px;
   max-width: 50%;
 }
+
 .palette__cover__top {
   position: absolute;
   left: 0;
@@ -70,7 +84,14 @@
   z-index: 4;
   border-radius: 3px 3px 4px 4px;
   opacity: 0;
+  @media (min-width: 768px) {
+    width: 209%;
+    height: 20px;
+    margin-left: -17.5rem;
+    margin-top: -4.4rem;
+  }
 }
+
 .palette__base {
   background: #222;
   width: inherit;
@@ -80,10 +101,19 @@
   border-radius: 8px;
   padding: 15px;
   grid-gap: 8px;
+  
+  
+  @media (min-width: 768px) {
+    width: 100%;
+    height: 100%;
+  }
+
 }
+
 .palette:hover .palette__cover {
   transform: rotateX(78deg);
 }
+
 .palette:hover .palette__cover__top {
   animation: startTransition 0.17s forwards 0.1s;
 }
@@ -102,7 +132,7 @@
     top: 22px;
     opacity: 1;
     transform: scale(1);
-    height: 15px;
+    height: 1.1rem;
     box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.2);
   }
 }
@@ -136,13 +166,14 @@
 }
 .palette--one .palette__shade:nth-child(3) {
   background: #fadc89;
-  background-image: url('https://raw.githubusercontent.com/devicons/devicon/v2.15.1/icons/javascript/javascript-original.svg');
+  background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg');
+  
   background-repeat: no-repeat;
   background-position-y: center;
 }
 .palette--one .palette__shade:nth-child(4) {
   background: #fadc89;
-  background-image: url('https://raw.githubusercontent.com/devicons/devicon/v2.15.1/icons/bootstrap/bootstrap-original-wordmark.svg');
+  background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg');
   background-repeat: no-repeat;
   background-position-y: center;
 }
@@ -155,7 +186,7 @@
 
 .palette--one .palette__shade:nth-child(6) {
   background: #fadc89;
-  background-image: url('https://raw.githubusercontent.com/devicons/devicon/v2.15.1/icons/rails/rails-original-wordmark.svg');
+  background-image: url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg');
   background-repeat: no-repeat;
   background-position-y: center;
 }
