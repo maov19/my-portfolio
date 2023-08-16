@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import Lottie from 'lottie-react';
 import animationData from '../assets/MO.json';
+import './styles/Intro.css'
 
 const Logo = () => {
   const animationRef = useRef(null);
@@ -15,7 +16,8 @@ const Logo = () => {
   return (
       <div>
         <Lottie
-          style={{height: '45vh'}}
+          className='logo'
+          // style={{height: '45vh'}}
           animationData={animationData}
           loop={false}
           autoplay
