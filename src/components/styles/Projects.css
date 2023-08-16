@@ -46,27 +46,52 @@
   body {
     font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
   }
+
+  .container-background {
+        color: #999;
+        font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+        text-align: center;
+        /* img size is 50x50 */
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+        -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+        /* Safari 4+ */
+        -moz-animation: bg-scrolling-reverse 0.92s infinite;
+        /* Fx 5+ */
+        -o-animation: bg-scrolling-reverse 0.92s infinite;
+        /* Opera 12+ */
+        animation: bg-scrolling-reverse 0.92s infinite;
+        /* IE 10+ */
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+        -o-animation-timing-function: linear;
+        animation-timing-function: linear;
+    
+  }
   
 
   .projects-background {
-    /* margin-top: 13.5rem; */
-    color: #999;
-    font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
-    text-align: center;
-    /* img size is 50x50 */
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
-    -webkit-animation: bg-scrolling-reverse 0.92s infinite;
-    /* Safari 4+ */
-    -moz-animation: bg-scrolling-reverse 0.92s infinite;
-    /* Fx 5+ */
-    -o-animation: bg-scrolling-reverse 0.92s infinite;
-    /* Opera 12+ */
-    animation: bg-scrolling-reverse 0.92s infinite;
-    /* IE 10+ */
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-    -o-animation-timing-function: linear;
-    animation-timing-function: linear;
+    border:  black;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 98vw;
+    margin: 0 0 2rem 0;
+    padding: 0;
+
+    @media (min-width: 768px) {
+        width: auto;
+        /* gap: 2; */
+        padding: 0;
+        margin: 0 0 2rem 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: auto;
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+      }
   }
 
   ul {
@@ -75,8 +100,43 @@
 
   
   .triple-rounded {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
     border-radius: 2rem;
+    @media (min-width: 768px) {
+      margin: auto;
+      gap: 0;
+      height: 90%;
+      padding: 4rem;
+    }
   }
+
+  .triple-rounded h2 {
+    font-size: 1.5rem ;
+    @media (min-width: 768px) {
+      font-size: 3rem;
+    }
+  }
+
+  .triple-rounded p {
+    font-size: 0.8rem ;
+    @media (min-width: 768px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .triple-rounded ul li {
+    font-size: 0.7rem ;
+    @media (min-width: 768px) {
+      font-size: 1.2rem;
+    }
+  }
+
 
   .GitHub-btn {
     font-size: 1rem;
@@ -86,6 +146,11 @@
     border: grey;
     border-radius: 0.5rem;
     padding: 0.3rem;
+
+    @media (min-width: 768px) {
+    font-size: 2rem;
+    }
+
   }
   
   .GitHub-btn:active {
@@ -115,6 +180,10 @@
     padding: 0.3rem;
     border: none;
     border-radius: 0.5rem;
+
+    @media (min-width: 768px) {
+      font-size: 2rem;
+      }
   }
   
   .LiveSite-btn:active {
