@@ -1,5 +1,6 @@
 import React from 'react';
-import { NavLink, Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+// import { NavLink, Router, Route, Routes } from 'react-router-dom';
 import Intro from './components/Intro';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
