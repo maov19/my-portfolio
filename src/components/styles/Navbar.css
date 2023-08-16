@@ -30,6 +30,10 @@
     padding: 0;
     background-color: #333333f3;
     height: 100vh;
+
+    @media (min-width: 768px) {
+        width: 20%;
+    }
   }
 
   .navbar-links li {
@@ -74,17 +78,15 @@
     opacity: 0; /* Hide the third line when the navbar is open */
   }
 
-  /* Media query to show the hamburger on smaller screens */
-  @media (max-width: 768px) {
-    .hamburger {
-      display: block;
-    }
-
-    .navbar-links {
-      display: none; /* Hide the links on smaller screens by default */
-    }
-
-    .open .navbar-links {
-      display: flex;
-    }
+  .hamburger {
+    display: block;
   }
+
+  /* .navbar-links {
+    display: none;
+  } */
+
+  /* .open .navbar-links {
+    display: flex;
+  } */
+

@@ -1,13 +1,6 @@
 import React, { useState } from 'react';
 import './styles/Skills.css';
 
-import javascript from '../assets/skills/JavaScript_Logo.png'
-import html from '../assets/skills/HTML5_logo.png'
-import react from '../assets/skills/react-logo.png'
-import bootstrap from '../assets/skills/Bootstrap_Logo.png'
-import rails from '../assets/skills/rails-logo.png'
-import python from '../assets/skills/python-logo.png'
-
 const Skills = () => {
   const [isFlipped, setIsFlipped] = useState([false, false]);
 
