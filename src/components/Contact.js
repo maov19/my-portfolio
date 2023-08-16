@@ -22,9 +22,9 @@ const Contact = () => {
   };
 
   return (
-    <div className='d-flex flex-column align-items-center' style={{ height: '93vh', width: '100vw', backgroundColor: '#22333B', color: 'white', paddingTop: '10vh'}}>
-      <h2 style={{fontSize: '1.5rem'}}>Contact</h2>
-      <p className='fs-6 w-75 text-center'>Do you think I can help you with a project or idea? Reach out!</p>
+    <div className='d-flex flex-column align-items-center form-container' style={{ height: '100vh', width: '100vw', backgroundColor: '#22333B', color: 'white', paddingTop: '10vh'}}>
+      <h2 class='fw-bold'>Contact</h2>
+      <p className='w-75 text-center'>Do you think I can help you with a project or idea? Reach out!</p>
       {/* <form onSubmit={handleSubmit} className='w-100 h-75 fs-6 d-flex flex-column justify-content-center align-items-center gap-2'> */}
       <form ref={form} onSubmit={sendEmail} className='w-100 h-75 fs-6 d-flex flex-column justify-content-center align-items-center gap-2'>
         <label htmlFor="name"></label>

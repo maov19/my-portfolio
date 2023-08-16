@@ -46,6 +46,12 @@
   text-transform: uppercase;
   color: #fff;
   overflow: hidden;
+
+  @media (min-width: 768px) {
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+  }
 }
 
 .palette__cover span {
@@ -162,6 +168,12 @@
 }
 .palette--one .palette__cover__top {
   background: #ecb404;
+
+  @media (min-width: 768px) {
+    background: none;
+    box-shadow: none;
+
+  }
 }
 .palette--one .palette__cover span {
   max-width: 50%;
@@ -176,12 +188,23 @@
   justify-self: center;
   grid-auto-columns: repeat(max-content);
   grid-auto-rows: max-content;
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+    gap: 0.5rem;
+
+  }
 }
 .palette--two .palette__cover {
   background: #ee4266;
 }
 .palette--two .palette__cover__top {
   background: #ee4266;
+
+  @media (min-width: 768px) {
+    background: none;
+    box-shadow: none;
+
+  }
 }
 .palette--two .palette__cover span {
   max-width: 62%;
