@@ -13,7 +13,7 @@ const Projects = () => {
       id: 1,
       image: cycleCruiser,
       title: 'CycleCruiser',
-      description: 'Web app for a company that rents motorcycles. You can create, delete and make reservations to use otorcyles.',
+      description: 'Web app for a company that rents motorcycles. You can create, delete and make reservations to use motorcyles.',
       items: ['React', 'Rails', 'Bootstrap'],
       liveSite: 'https://thecyclecruise.onrender.com/',
       gitHub: 'https://github.com/c00p75/appointment-app-backend',
@@ -60,7 +60,14 @@ const Projects = () => {
           <p className='text-center'>{project.description}</p>
           <ul className='w-100 d-flex flex-row justify-content-center align-items-center p-0 gap-1'>
             {project.items.map((item, index) => (
-              <li className='fw-bold p-1 border-none rounded' style={{backgroundColor: '#C6AC8F', color: '#22333b'}} key={index}>{item}</li>
+              <li 
+                className='fw-bold p-1 border-none rounded' 
+                style={{
+                  backgroundColor: '#C6AC8F', 
+                  color: '#22333b', 
+                  cursor: 'pointer', 
+              }} 
+            key={index}>{item}</li>
             ))}
           </ul>
           <div className='d-flex flex-row gap-4 my-1'>

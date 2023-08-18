@@ -40,7 +40,7 @@ const Contact = () => {
         {messageSent ? (
           <p className="fw-bold my-3">Your message was sent!</p>
         ) : (
-          <button className='p-2 my-3 GitHub-btn' type="submit">Send</button>
+          <button className=' my-3 GitHub-btn' type="submit">Send</button>
         )}
 
         <div class="social-links d-flex justify-content-end mt-2">
