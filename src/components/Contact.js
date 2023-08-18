@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='d-flex flex-column align-items-center form-container' style={{ height: '100vh', width: '100vw', backgroundColor: '#22333B', color: 'white', paddingTop: '10vh'}}>
+    <div className='d-flex flex-column align-items-center form-container' style={{ height: '100vh', width: '100vw', backgroundColor: '#5E503F', color: 'white', paddingTop: '10vh'}}>
       <h2 class='fw-bold'>Contact</h2>
       <p className='w-75 text-center'>Do you think I can help you with a project or idea? Reach out!</p>
       {/* <form onSubmit={handleSubmit} className='w-100 h-75 fs-6 d-flex flex-column justify-content-center align-items-center gap-2'> */}
@@ -47,6 +47,7 @@ const Contact = () => {
           <a href="https://www.facebook.com/martin.ossa/" class="btn btn-social btn-facebook text-white" ><i class="fab fa-facebook-f fs-3"></i></a>
           <a href="https://twitter.com/maov08" class="btn btn-social btn-twitter"><i class="fab fa-twitter fs-3 text-white"></i></a>
           <a href="https://github.com/maov19" class="btn btn-social btn-github"><i class="fab fa-github fs-3 text-white"></i></a>
+          <a href="mailto:martin.ossa.8@gmail.com" class="btn btn-social btn-gmail"><i class="fas fa-envelope fs-3 text-white"></i></a>
         </div>
       </form>
     </div>
