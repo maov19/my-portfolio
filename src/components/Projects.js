@@ -1,6 +1,9 @@
 import React from 'react';
 import cycleCruiser from '../assets/screenshots/cyclecruiser-1.png'
 import spaceTravelers from '../assets/screenshots/space-travelers-1.jpg'
+import budgy from '../assets/screenshots/budget-app.png'
+import cryptostats from '../assets/screenshots/cryptostats.png'
+
 import './styles/Projects.css'; 
 
 
@@ -10,7 +13,7 @@ const Projects = () => {
       id: 1,
       image: cycleCruiser,
       title: 'CycleCruiser',
-      description: 'Web app to create, delete and make reservations to use Motorcyles.',
+      description: 'Web app for a company that rents motorcycles. You can create, delete and make reservations to use otorcyles.',
       items: ['React', 'Rails', 'Bootstrap'],
       liveSite: 'https://thecyclecruise.onrender.com/',
       gitHub: 'https://github.com/c00p75/appointment-app-backend',
@@ -26,21 +29,21 @@ const Projects = () => {
     },
     {
       id: 3,
-      image: spaceTravelers,
-      title: 'Space Travelers Hub',
-      description: 'A Single Page Web App for a company that provides commercial and scientific space travel services.',
-      items: ['React', 'Redux', 'CSS'],
-      liveSite: 'https://space-travellers-ztro.onrender.com/',
-      gitHub: 'https://github.com/maov19/space-travelers-hub',
+      image: budgy,
+      title: 'Budget App',
+      description: 'Mobile web application where you can manage your budget. you have a list of of transactions and categories, so you can see how much money you spent and on what.',
+      items: ['Ruby on Rails', 'CSS'],
+      liveSite: 'https://mysite-f67g.onrender.com/',
+      gitHub: 'https://github.com/maov19/budget-app/',
     },
     {
       id: 4,
-      image: spaceTravelers,
-      title: 'Space Travelers Hub',
-      description: 'A Single Page Web App for a company that provides commercial and scientific space travel services.',
+      image: cryptostats,
+      title: 'Crypto Stats',
+      description: 'A mobile web application that displays updated top 100 crypto prices and main stats, retrieved from a live feed API',
       items: ['React', 'Redux', 'CSS'],
-      liveSite: 'https://space-travellers-ztro.onrender.com/',
-      gitHub: 'https://github.com/maov19/space-travelers-hub',
+      liveSite: 'https://crypto-stats.onrender.com/',
+      gitHub: 'https://github.com/maov19/metrics-webapp/',
     },
     // Add more project objects here
   ];
