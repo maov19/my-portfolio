@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='d-flex flex-column align-items-center form-container' style={{ height: '100vh', width: '100vw', backgroundColor: '#5E503F', color: 'white', paddingTop: '10vh'}}>
+    <div id='contact' className='d-flex flex-column align-items-center form-container' style={{ height: '100vh', width: '100vw', backgroundColor: '#5E503F', color: 'white', paddingTop: '10vh'}}>
       <h2 class='fw-bold'>Contact</h2>
       <p className='w-75 text-center'>Do you think I can help you with a project or idea? Reach out!</p>
       {/* <form onSubmit={handleSubmit} className='w-100 h-75 fs-6 d-flex flex-column justify-content-center align-items-center gap-2'> */}

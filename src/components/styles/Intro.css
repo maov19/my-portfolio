@@ -42,11 +42,11 @@
     height: 100%;
 
     @media (min-width: 768px) {
-        height: 100vh;
+        height: 100%`;
         width: 50%;
         padding-left: 4rem;
-          align-items: flex-start;
-          font-size: 2rem;
+        align-items: flex-start;
+        font-size: 2rem;
     }
   }
 

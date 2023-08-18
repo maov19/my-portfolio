@@ -65,12 +65,16 @@
         -moz-animation-timing-function: linear;
         -o-animation-timing-function: linear;
         animation-timing-function: linear;
+
+        @media (min-width: 768px) {
+            padding: 2rem;
+            margin: 0;
+        }
     
   }
   
 
   .projects-background {
-    border:  black;
     
     display: flex;
     flex-direction: column;
@@ -85,7 +89,8 @@
         width: auto;
         /* gap: 2; */
         padding: 0;
-        margin: 0 0 2rem 0;
+        margin: 0;
+        /* margin: 0 0 2rem 0; */
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: auto;

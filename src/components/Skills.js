@@ -11,7 +11,8 @@ const Skills = () => {
   };
 
   return (
-    <section>
+    <section className='skills-container' id='skills'>
+      <h1 className='fw-bold pt-5 pb-0 m-0 text-center'>Skills</h1>
       <div class="main-content">
         <div class="palette__wrapper">
           <div class="palette palette--one">
@@ -46,42 +47,6 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    {/* <div className='d-flex flex-column justify-content-center align-items-center gap-2' style={{height: '94vh', backgroundColor: '#E4D6A7', paddingTop: '5vh'}}>
-      <div className={`flip-card ${isFlipped[0] ? 'flipped' : ''}`} onClick={() => handleCardClick(0)}>
-        <div className="flip-card-inner">
-          <div className="flip-card-front">
-            <h2 className='fw-bold'>Hard Skills</h2>
-          </div>
-          <div className="flip-card-back">
-            <ul className='hard-list'>
-              <img src={javascript} alt='javascript' className='img-fluid'></img>
-              <img src={html} alt='html' className='img-fluid'></img>
-              <img src={react} alt='react' className='img-fluid'></img>
-              <img src={bootstrap} alt='bootstrap' className='img-fluid'></img>
-              <img src={rails} alt='rails' className='img-fluid'></img>
-              <img src={python} alt='python' className='img-fluid'></img>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className={`flip-card ${isFlipped[1] ? 'flipped' : ''}`} onClick={() => handleCardClick(1)}>
-        <div className="flip-card-inner">
-          <div className="flip-card-front">
-            <h2 className='fw-bold'>Soft Skills</h2>
-          </div>
-          <div className="flip-card-back">
-            <ul className='skills-list'>
-              <li className='soft-skills green'>Remote Working</li>
-              <li className='soft-skills blue'>Pair programming</li>
-              <li className='soft-skills blue'>Communication skills</li>
-              <li className='soft-skills green'>Fast Learner</li>
-              <li className='soft-skills green'>Leadership skills</li>
-              <li className='soft-skills blue'>Critical thinking</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div> */}
     </section>
   );
 };

@@ -17,27 +17,26 @@ const Navbar = () => {
         <div className={`hamburger-line ${isNavbarOpen ? 'open' : ''}`}></div>
       </div>
       <div className="navbar-links" style={{ display: isNavbarOpen ? 'flex' : 'none' }}>
-      {/* <div className={`navbar-links ${isNavbarOpen ? 'open' : ''}`}> */}
           <ul>
             <li>
-              <NavLink exact to="/" activeClassName="active" onClick={handleNavbarToggle}>
+              <a href='#intro' activeClassName="active" onClick={handleNavbarToggle}>
                 Home
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink to="/projects" activeClassName="active" onClick={handleNavbarToggle}>
+              <a href='#projects' activeClassName="active" onClick={handleNavbarToggle}>
                 Projects
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink to="/skills" activeClassName="active" onClick={handleNavbarToggle}>
+              <a href='#skills' activeClassName="active" onClick={handleNavbarToggle}>
                 Skills
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink to="/contact" activeClassName="active" onClick={handleNavbarToggle}>
+              <a href='#contact' activeClassName="active" onClick={handleNavbarToggle}>
                 Contact
-              </NavLink>
+              </a>
             </li>
           </ul>
       </div>

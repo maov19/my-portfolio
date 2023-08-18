@@ -49,7 +49,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className='container-background'>
+    <div id='projects' className='container-background'>
     <h1 className='fw-bold pt-5 pb-2 text-center'>Projects</h1>
     <div className='projects-background'>      
       {projects.map((project) => (
