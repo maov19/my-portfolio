@@ -1,0 +1,50 @@
+.box {
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.box b {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #3673cf41;
+  /* box-shadow: inset -5px -5px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04); */
+  position: absolute;
+  -webkit-animation: moveX 6s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -moz-animation: moveX 6s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -o-animation: moveX 6s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  animation: moveX 6s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes moveX {
+  from { left: 0; } to { left: 100vw; }
+}
+@-moz-keyframes moveX {
+  from { left: 0; } to { left: 100vw; }
+}
+@-o-keyframes moveX {
+  from { left: 0; } to { left: 100vw; }
+}
+@keyframes moveX {
+  from { left: 0; } to { left: 100vw; }
+}
+@-webkit-keyframes moveY {
+  from { top: 0; } to { top: 100vh; }
+}
+@-moz-keyframes moveY {
+  from { top: 0; } to { top: 100vh; }
+}
+@-o-keyframes moveY {
+  from { top: 0; } to { top: 100vh; }
+}
+@keyframes moveY {
+  from { top: 0; } to { top: 100vh; }
+}
+
+.about {
+  z-index: 999;
+}

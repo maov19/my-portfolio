@@ -29,6 +29,11 @@ const Navbar = () => {
               </a>
             </li>
             <li>
+              <a href='#about' activeClassName="active" onClick={handleNavbarToggle}>
+                About me
+              </a>
+            </li>
+            <li>
               <a href='#skills' activeClassName="active" onClick={handleNavbarToggle}>
                 Skills
               </a>
