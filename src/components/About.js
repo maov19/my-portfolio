@@ -7,7 +7,7 @@ const About = () => {
     <div class="box"><b></b>
     <section className='vh-100 vw-100 d-flex flex-column justify-content-start align-items-center text-center px-5 fw-bold about' id='about'>
       <h1 className='mt-3 p-5 fw-bold text-center'>About Me</h1>
-      <div className='m-0 p-0 about-content'>
+      <div className='m-0 p-0 about-content fs-md-3'>
         <p>
             Hey! I'm a motivated full stack developer with a passion for E-commerce and data analytics. 
             I have over a decade in Accounting and Finance, where I've thrived in remote, goal-oriented environments.
