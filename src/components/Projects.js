@@ -15,7 +15,7 @@ const Projects = () => {
       title: 'CycleCruiser',
       description: 'Web app for a company that rents motorcycles. You can create, delete and make reservations to use motorcyles.',
       items: ['React', 'Rails', 'Bootstrap'],
-      liveSite: 'https://thecyclecruise.onrender.com/',
+      liveSite: 'https://cycle-cruise.onrender.com/',
       gitHub: 'https://github.com/c00p75/appointment-app-backend',
     },
     {
